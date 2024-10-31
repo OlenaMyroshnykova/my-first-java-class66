@@ -1,17 +1,15 @@
 package com.esval5;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+public final class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Person person1 = new Person("Mike", "Wazowski", "1111111111", 1980);
+        Person person2 = new Person("Sully", "Salt", "2222222222", 1983);
+
+        System.out.println("Person 1:");
+        person1.printAttributes();
+
+        System.out.println("\nPerson 2:");
+        person2.printAttributes();
     }
 }
