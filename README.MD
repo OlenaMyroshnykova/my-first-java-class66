@@ -22,4 +22,6 @@ classDiagram
     class App {
         + static void main(String[] args)
     }
+
+    App --> Person : creates
 ```
