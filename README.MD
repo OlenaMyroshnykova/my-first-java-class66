@@ -9,7 +9,7 @@ classDiagram
         -int birthYear
         -String countryOfBirth
         -char gender
-        +void printAttributes()
+        +void printAttributes
     }
 
     object person1 as "Person1: Person"
